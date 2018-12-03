@@ -1,0 +1,31 @@
+.header {
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', 'Segoe UI', sans-serif;
+  font-size: 3rem;
+  margin: 1rem;
+
+  &__cross {
+    color: #abc;
+    font-size: 2rem;
+
+    &.updated {
+      animation: flash linear 1s infinite;
+      color: #f2f;
+    }
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

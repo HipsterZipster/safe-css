@@ -1,0 +1,21 @@
+{
+  "name": "cra2-sass-bem",
+  "version": "1.0.0",
+  "description": "create-react-app version 2.0 added a lot of new features. One of the new features is support for Sass. If you start to use Sass, create-react-app will give you an error, but will give detailed instructions on how you can add Sass support to your project.",
+  "keywords": [],
+  "main": "src/index.jsx",
+  "dependencies": {
+    "node-sass": "4.9.3",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-scripts": "2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
