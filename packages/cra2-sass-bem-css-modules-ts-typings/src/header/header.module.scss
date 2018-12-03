@@ -7,11 +7,11 @@
   font-size: 3rem;
   margin: 1rem;
 
-  &-cross {
+  &__cross {
     color: #abc;
     font-size: 2rem;
 
-    &.updated {
+    &-updated {
       animation: flash linear 1s infinite;
       color: #f2f;
     }
