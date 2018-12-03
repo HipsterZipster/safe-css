@@ -1,6 +1,5 @@
 import React from 'react';
 import * as styles from './header.module.scss';
-console.log(JSON.stringify(styles, null, '\t'));
 
 export const Header = () => (
   <div className={styles.header}>
@@ -11,3 +10,5 @@ export const Header = () => (
     </p>
   </div>
 );
+
+// console.log(JSON.stringify(styles, null, '\t'));

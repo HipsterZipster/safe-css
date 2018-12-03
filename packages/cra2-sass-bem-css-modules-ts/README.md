@@ -43,11 +43,11 @@ MIT
   font-family: 'Roboto', 'Segoe UI', sans-serif;
   font-size: 3rem;
 }
-._src_header_header_module__header__cross {
+._src_header_header_module__header-cross {
   color: #abc;
   font-size: 2rem;
 }
-._src_header_header_module__header__cross._src_header_header_module__-updated {
+._src_header_header_module__header-cross._src_header_header_module__-updated {
   animation: _src_header_header_module__flash linear 1s infinite;
   color: #f2f;
 }
